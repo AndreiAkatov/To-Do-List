@@ -6,4 +6,4 @@ Technologies: React Native, React, LocalStorage, Javascript, React-icons, HTML5,
 
 to launch: npm start
 
-Date of completion: 25.09.2023.
+Date of completion: 30.07.2023.
