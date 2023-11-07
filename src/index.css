@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: local("Ubuntu"),
+        url("./fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+::placeholder {
+    color: #7B7B7B;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    height: 100%;
+    background: #3F72AF;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}

@@ -1,0 +1,176 @@
+.todo-wrapper {
+    max-width: 600px;
+    border-radius: 20px;
+    background: #F9F7F7;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.25);
+    margin: 55px auto;
+    padding: 20px 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 11px;
+    color: #112D4E;
+}
+
+.add-field {
+    margin-bottom: 15px;
+    display: flex;
+    width: 51%;
+}
+
+.addtask-input {
+    padding: 10px 11px;
+    border: 1px solid rgba(177, 177, 177, 0.40);
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+    background: #DBE2EF;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    flex-grow: 1;
+    width: 100px;
+
+}
+
+.addtask-btn {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+
+    padding: 1px 10.5px;
+    border-radius: 0px 5px 5px 0px;
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+
+    color: #FFFFFF;
+    background: #3F72AF;
+    cursor: pointer;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.50);
+    margin-bottom: 14.5px;
+}
+
+.divider__2 {
+    height: 1px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.50);
+    margin-top: 14.5px;
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+
+}
+
+.task {
+    border-radius: 5px;
+    background: #DBE2EF;
+    padding: 12.5px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+
+}
+
+.task-buttons {
+    display: flex;
+    gap: 15px;
+
+    &_btn {
+        font-size: 20px;
+        color: #FFFFFF;
+        background: #3F72AF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 5px;
+        cursor: pointer;
+    }
+}
+
+.search-input {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding: 10px 11px;
+    border: 1px solid rgba(177, 177, 177, 0.40);
+    border-radius: 5px;
+    background: #DBE2EF;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    width: 100%;
+}
+
+.task-filter {
+    width: 100%;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &__all {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgb(0, 0, 0);
+
+        &--buttons {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+
+            &__btn {
+                font-size: 20px;
+                color: #FFFFFF;
+                background: #3F72AF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 3px 5px;
+                cursor: pointer;
+            }
+
+            &__btn:last-child {
+                padding: 1.5px 5px;
+            }
+        }
+    }
+
+    &__completed {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgb(0, 0, 0);
+
+        &--button {
+            font-size: 20px;
+            color: #FFFFFF;
+            background: #3F72AF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 3px 5px;
+            cursor: pointer;
+        }
+    }
+}
