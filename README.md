@@ -1,9 +1,12 @@
-Author: Andrei Akatov.
 
-Task: Develop a To Do List application that allow to add, remove, fitrate tasks with React. Practice with received knowledge of React, Javascript, . Make calculation for each coin.
+Task: Develop a To Do List application that allow to add, remove, fitrate tasks with React. All tasks need to be saved in localStorage. Practice with received knowledge of React, Javascript.
 
-Technologies: React Native, React, Javascript, React-icons, HTML5, CSS, SCSS.
+Execution time: 2 weeks
+
+Technologies: React JS, localStorage, Javascript, React-icons, HTML5, CSS, SCSS.
 
 to launch: npm start
 
 Date of completion: 25.09.2023.
+
+Author: Andrei Akatov.
